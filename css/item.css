@@ -1,0 +1,47 @@
+.item{
+    max-width: 640px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 2%;
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+.item h2{
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.item p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.item__price{
+    margin: 0 auto;
+}
+
+.item__price button{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.item__price input[type=text]{
+    line-height: 26px;
+    outline: none;
+}
+
+.item__length{
+    padding-top: 10px;
+    color: #57F29A;
+}
+
+.item__length span{
+    color: red;
+}
